@@ -1,0 +1,46 @@
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 2000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.modal__button:hover {
+  color: red;
+}
+.modal__button {
+  animation: button 3s linear infinite;
+}
+@keyframes button {
+  from {
+    transform: rotateZ(0deg);
+    color: black;
+  }
+  to {
+    transform: rotateZ(360deg);
+    color: red;
+  }
+}
+.modal__form {
+  animation: form 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+@keyframes form {
+  from {
+    margin-left: -1000px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0px;
+    opacity: 0.9;
+  }
+}

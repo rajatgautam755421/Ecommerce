@@ -1,0 +1,126 @@
+.form-control {
+  width: 400px;
+}
+.form-inline {
+  display: flex;
+}
+.mainNavBar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 150px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  opacity: 1;
+}
+.SearchIcon {
+  width: 60px !important;
+  background-color: #2e2e54;
+  border-left: 1px solid lightgray;
+  color: gray;
+  height: 40px !important;
+  margin-top: 10px;
+}
+.search__input {
+  border-radius: 1px !important;
+  border: 1px solid lightgray;
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+}
+.Sarch__Avatar {
+  margin-left: auto;
+}
+.Search__image > img {
+  display: flex;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  text-align: center;
+  margin-top: 1px;
+  justify-content: center;
+}
+.search__account {
+  width: 30px !important;
+  height: 30px !important;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.R0w2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+}
+.myRow {
+  margin-right: auto;
+  margin-top: 0px !important;
+}
+.real__navbar {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  margin-right: 0px;
+}
+.real__navbar:active {
+  animation: burger 0.4s linear infinite;
+}
+@keyframes burger {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.sidebar__new {
+  min-height: 660px;
+  width: 100%;
+  margin-left: auto;
+  border: 1px solid black;
+  background-color: rgb(255, 255, 255);
+  animation: sidebar 0.5s linear;
+  transform-box: fill-box;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.cross {
+  cursor: pointer;
+  justify-content: center;
+  margin-left: auto;
+  width: 30px !important;
+  height: 30px !important;
+  cursor: pointer;
+  animation: Cross 1s linear infinite;
+}
+@keyframes Cross {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.cross:hover {
+  color: red;
+  opacity: 0.6;
+}
+@keyframes sidebar {
+  from {
+    margin-right: -600px;
+  }
+  to {
+    margin-right: 0px;
+  }
+}
+.sidenav__text {
+  text-decoration: none !important;
+  list-style-type: none;
+}
+.text__new {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

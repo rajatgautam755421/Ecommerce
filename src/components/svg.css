@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Image__2 {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#right__wheel,
+#left__wheel_2 {
+  animation: wheel 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wheel {
+  to {
+    transform: rotateZ(0deg);
+  }
+  from {
+    transform: rotateZ(360deg);
+  }
+}
+
+#man {
+  animation: man 1s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+@keyframes man {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(20deg);
+  }
+}

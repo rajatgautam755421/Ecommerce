@@ -1,0 +1,32 @@
+/* .w-full > input {
+  border: 1px solid black;
+} */
+input {
+  border: 1px solid black;
+}
+.form__input {
+  border: 1px solid black;
+}
+.form__button {
+  align-items: center;
+  justify-content: center;
+}
+.form__text {
+  text-align: center;
+  font-size: 30px;
+}
+.cart__details {
+  display: flex;
+}
+.cart__checkout {
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.checkout {
+  justify-content: center !important;
+  align-items: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 20px;
+}
